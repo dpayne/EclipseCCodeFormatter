@@ -6,16 +6,10 @@ This utility is designed to format the C/C++ source code using the formatting to
 
 How to use?
 -----------------------------------------------------------------------------------------------
-Download compiled version of the utility from the Releases folder (CCodeFormatterApp.jar and CCodeFormatterApp.cmd),
-and then just run command with a list of files or dir names, see examples:
+just run command with a list of files or dir names, see examples:
 
-    CCodeFormatterApp.cmd -config org.eclipse.cdt.core.prefs file.c
-    CCodeFormatterApp.cmd -config org.eclipse.cdt.core.prefs dir_name
-
-Or if you won't use windows batch-files or you use linux, you can run:
-
-    java -jar CCodeFormatterApp.jar -config org.eclipse.cdt.core.prefs {list of files or folders}
-
+    cppformat file.c
+    cppformat dir_name
 
 Where to get the config file org.eclipse.cdt.core.prefs?
 -----------------------------------------------------------------------------------------------
